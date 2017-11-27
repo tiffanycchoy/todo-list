@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family:'Montserrat',sans-serif;
+}
+
+h1, h4{
+  margin: 20px;
+  color: #00a07b;
+  display: inline-block;
+}
+
+h4 {
+  float: right;
+}
+
+.app {
+  display: flex;
+  flex-flow: row;
+}
+
+.add-item-bar {
+  width: 100%;
+  margin: 20px;
+}
+
+.left-margin {
+  margin-left: 30px;
+}
+
+.input-field {
+  width: 20%;
+  padding: 10px;
+  font-size: 20px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border: 0;
+  transition: all .3s;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.input-field:focus {
+  border-bottom: 2px solid #00a07b;
+}
+
+.todo-items {
+  width: 80%;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  color: #00a07b;
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 0.5em;
+  border-bottom: 1px solid #d0d0d0;
+  background-color: #ffffff;
+}
+
+th:hover:not(:first-child):not(:last-child) {
+  cursor: pointer;
+  background: #00a07b;
+  color: #fff;
+}
+
+tr {
+  width: 100%;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  color: #00a07b;
+}
+
+td {
+  padding: 0.5em;
+}
+
+button {
+  cursor: pointer;
+  color: black;
+  transition: all .3s;
+  border: 2px solid #00a07b;
+  border-radius: 50%;
+}
+
+button:hover {
+  background: #00a07b;
+  color: #fff;
+  border: 2px solid #00a07b;
+}
+
+.add-item-button {
+  padding: 0px 12px;
+  font-size: 30px;
+}
+
+.search-button {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.remove-item {
+  color: black;
+  cursor: pointer;
+}
+
+.remove-item:hover {
+  color: #990000;
+}
+
+.side-bar {
+  width: 20%;
+  margin: 10px;
+}
+
+.search-bar {
+  width: 80%;
+}
+
+.top-margin {
+  margin-top: 20px;
+}
+
+.radio-bottom-margin {
+  margin-bottom: 16px;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
